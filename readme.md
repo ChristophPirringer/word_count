@@ -4,6 +4,8 @@
 
 #### By _**{Christoph Pirringer}**_
 
+## Heroku-link _{https://evening-beach-4491.herokuapp.com/}_
+
 ## Description
 
 _{The application takes the word to be searched for as an argument (upper- or lower-case is irrelevant) and then searches for it in the words of the object it was called upon (of the string-class).
@@ -22,7 +24,8 @@ _{The application takes the word to be searched for as an argument (upper- or lo
 
 ## Technologies Used
 
-_{This app was created in Ruby with friendly assistance from both html and css}_
+_{This app was created in Ruby with friendly assistance from both html and css and can be accessed with a local server or via Heroku
+  }_
 
 ### Legal
 
