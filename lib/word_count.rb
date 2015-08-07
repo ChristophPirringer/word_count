@@ -4,7 +4,7 @@ class String
  	  counter = 0
 
     input_string.each() do |word|
-      if word==(targetword)
+      if word.downcase()==(targetword.downcase())
         counter+=1
       end
     end

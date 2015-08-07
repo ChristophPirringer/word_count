@@ -20,4 +20,7 @@ describe ("String#word_count") do
     expect(("If Peter Piper picked a peck of pickled peppers, where's the peck of pickled peppers Peter Piper picked?").word_count("peck")).to(eq(2))
   end
 
+  it("returns the number '2' for the word 'peck' in the sentence 'If Peter Piper picked a peck of pickled peppers, where's the peck of pickled peppers Peter Piper picked?' even if the words are in unexpected upper- or lower-case") do
+    expect(("If Peter Piper picked a Peck of pickled peppers, where's the peck of pickled peppers Peter Piper picked?").word_count("peck")).to(eq(2))
+  end
 end
