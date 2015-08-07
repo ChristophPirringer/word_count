@@ -9,8 +9,8 @@ get('/') do
 end
 
 get('/output') do
-  @output = params.fetch("sentence").word_count("word")
   @sentence = params.fetch("sentence")
   @word = params.fetch("word")
+  @output = @sentence.word_count(@word)
   erb(:output)
 end
