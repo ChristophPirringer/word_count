@@ -1,0 +1,54 @@
+/***************************
+  GLOBAL
+***************************/
+
+body {
+  padding-top: 170px;
+  height: 850px;
+  background: linear-gradient(#85ADFF, transparent 90%),
+  linear-gradient(0deg, #fff, transparent),
+  #85ADFF url('http://www.neusiedlersee.com/static/images/langelacke1.jpg') no-repeat center;
+  background-size: cover;
+  text-align:center;
+}
+
+
+/***************************
+  index.erb - INPUT PAGE
+***************************/
+
+.form-group {
+  padding:1rem;
+}
+
+#title{
+  padding-bottom:1rem;
+}
+
+.btn{
+  margin-top:1rem;
+}
+
+
+/***************************
+  output.erb - RESULT PAGE
+***************************/
+
+#result{
+  line-height:200%;
+}
+#score{
+  color:#000099;
+  font-size:2rem;
+  line-height:300%;
+}
+#footer{
+  position: absolute;
+  bottom:2rem;
+  width:100%;
+}
+
+#footer.h3{
+  width:100%;
+  margin:0px auto;
+}

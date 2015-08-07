@@ -14,3 +14,12 @@ get('/output') do
   @output = @sentence.word_count(@word)
   erb(:output)
 end
+
+get('/different') do
+  erb(:different)
+ #  sleep 10
+ #
+ #  3.times do
+ #   system "say", "Exterminate"
+ # end
+end
